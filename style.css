@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.all{
+    display: flex;
+    width: 50vw;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+h2{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+}
+.line{
+    border-bottom: 3px dotted white;
+    display: block;
+    width:10%;
+    margin-left: 3%;
+    position: absolute;
+    margin-top:25%;
+    align-self: center;
+    left: 15%;
+}
+.social ul{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 60%;
+    margin-left: 20%;
+}
+.social ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+.social ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: wheat;
+}
+.social ul li a:hover{
+    box-shadow: 5px 3px 10px 5px;
+    border-radius: 50%;
+}
+.contact{
+    position: absolute;
+    top: 57%;
+    color:aqua;
+    margin-left: 20%;
+}
+form{
+    display: grid;
+    width: 500px;
+    position: relative;
+    left: 80%;
+    margin-top: 5%;
+    background-color: white;
+    padding: 20px;
+    height:550px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 30px 5px white;
+}
+h1{
+    text-transform: capitalize;
+    text-decoration: dotted;
+    font-family: cursive;
+}
+input{
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 13px;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#cancel,#submit{
+    cursor: pointer;
+    background-color: black;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    padding:0px 10px;
+}
+#cancel:hover,#submit:hover{
+    box-shadow: 3px 5px 6px 5px black;
+    background-color: white;
+    color: black;
+}
+#moon{
+    font-size: 30px;
+    background-color: black;
+    border-radius: 100px;
+    position: absolute;
+    top:8%;
+    right: 8%;
+    cursor: pointer;
+    color: white;
+}
+}
