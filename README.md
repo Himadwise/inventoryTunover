@@ -1,2 +1,2 @@
 # inventoryTunover
-- [LiveDemo] (https://himadwise.github.io/inventoryTunover/)
+- [LiveDemo] (https://himadwise.github.io/inventoryTunover)
